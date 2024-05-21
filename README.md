@@ -1,4 +1,8 @@
-# Biases PPL
+# AI Xenophobia 
+
+Code of the paper [Are Text Classifiers Xenophobic? A Country-Oriented Bias Detection Method with Least Confounding Variables](https://aclanthology.org/2024.lrec-main.134/), Barriere, V., & Cifuentes, S., In *Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)* (pp. 1511-1518). 
+
+The goal of this repo is to give a score that represent the bias of a production model, using unlabeled production data, toward different countries, using the names as proxy. We found out multilingual models based on XLM-R tend to favour names coming from a country speaking the language of the sentence. Please cite our paper if you use the toolbox. 
 
 ## Requirements
 
